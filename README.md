@@ -1,4 +1,4 @@
-# YOLO-PRCV: VisDrone Multimodal Detection Code
+# VisDrone Multimodal Detection Code
 
 This is a minimal open-source version organized from the experimental directory. It keeps the model code needed to reproduce the paper's experiments, three target YAML configs, the training/validation/inference entry points, and the Depth Anything V2 inference code.
 
