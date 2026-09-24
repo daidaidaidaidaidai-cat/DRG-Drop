@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "yolo-prcv"
+version = "0.1.0"
+description = "Minimal reproducibility package for the YOLO-PRCV VisDrone experiments"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["ultralytics*", "scripts*"]
+
+[tool.setuptools.package-data]
+ultralytics = ["**/*.yaml"]

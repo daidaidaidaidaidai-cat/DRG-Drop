@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+.venv/
+venv/
+*.pt
+*.pth
+*.onnx
+datasets/
+runs/
+depth_output/
+ref/Depth-Anything-V2-main/checkpoints/
